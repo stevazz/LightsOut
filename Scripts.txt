@@ -1,0 +1,10 @@
+create Database lightsOut;
+USE lightsOut;
+CREATE TABLE state (  
+    Id CHAR(36) NOT NULL,  
+    Board varchar(50) NOT NULL,  
+    ColumnLength int NOT NULL,  
+    RowLength int NOT NULL,  
+    Score int NOT NULL,
+    PRIMARY KEY (id)  
+);  

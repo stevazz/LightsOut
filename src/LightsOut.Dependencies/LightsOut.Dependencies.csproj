@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LightsOut.Engine\LightsOut.Engine.csproj" />
+    <ProjectReference Include="..\LightsOut.Random\LightsOut.Random.csproj" />
+    <ProjectReference Include="..\LightsOut.Repository.MySql\LightsOut.Repository.MySql.csproj" />
+    <ProjectReference Include="..\LightsOut.Repository.Redis\LightsOut.Repository.Redis.csproj" />
+  </ItemGroup>
+
+</Project>
